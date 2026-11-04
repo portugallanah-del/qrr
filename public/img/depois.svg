@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="bgBaseDep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBECE8"/>
+      <stop offset="100%" stop-color="#DCDFD8"/>
+    </linearGradient>
+    <linearGradient id="skinBaseDep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF0E6"/>
+      <stop offset="50%" stop-color="#F7DFD3"/>
+      <stop offset="100%" stop-color="#EAC9B8"/>
+    </linearGradient>
+    <linearGradient id="hairBaseDep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#363433"/>
+      <stop offset="100%" stop-color="#232326"/>
+    </linearGradient>
+    <radialGradient id="luminanceGlow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#FFF9EA" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFF9EA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgBaseDep)"/>
+  <circle cx="300" cy="350" r="230" fill="#FFFFFF" opacity="0.45"/>
+
+  <!-- Shoulders -->
+  <path d="M 120 750 C 130 570 180 510 240 480 L 300 520 L 360 480 C 420 510 470 570 480 750 Z" fill="#F4F1EA"/>
+
+  <!-- Neck -->
+  <path d="M 270 380 L 270 490 C 285 505 315 505 330 490 L 330 380 Z" fill="#EAC9B8"/>
+
+  <!-- Hair Back -->
+  <path d="M 200 240 C 170 340 180 470 230 520 L 250 510 C 210 440 210 330 220 260 Z" fill="url(#hairBaseDep)"/>
+  <path d="M 400 240 C 430 340 420 470 370 520 L 350 510 C 390 440 390 330 380 260 Z" fill="url(#hairBaseDep)"/>
+
+  <!-- Face Oval (Depois: Perfectly harmonized chin, lifted cheek contour) -->
+  <path d="M 235 250 C 235 170 365 170 365 250 C 365 330 345 412 300 412 C 255 412 235 330 235 250 Z" fill="url(#skinBaseDep)"/>
+
+  <!-- Gentle radiant skin highlight -->
+  <circle cx="300" cy="300" r="140" fill="url(#luminanceGlow)"/>
+
+  <!-- Hair Front -->
+  <path d="M 220 230 C 230 130 370 130 380 230 C 360 195 330 185 300 185 C 270 185 240 195 220 230 Z" fill="url(#hairBaseDep)"/>
+
+  <!-- Eyebrows (Slightly lifted arch - Botox effect) -->
+  <path d="M 252 243 C 265 238 278 240 286 247" fill="none" stroke="#363433" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M 348 243 C 335 238 322 240 314 247" fill="none" stroke="#363433" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Forehead is completely smooth & luminous (Botox effect) -->
+  <ellipse cx="300" cy="222" rx="35" ry="12" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- Eyes with illuminated, rested undereyes (Olheira preenchida effect) -->
+  <ellipse cx="272" cy="274" rx="18" ry="7" fill="#FFF4EE" opacity="0.8"/>
+  <ellipse cx="328" cy="274" rx="18" ry="7" fill="#FFF4EE" opacity="0.8"/>
+
+  <ellipse cx="272" cy="260" rx="10.5" ry="6" fill="#FFFFFF"/>
+  <circle cx="272" cy="260" r="4.6" fill="#363433"/>
+  <circle cx="274.2" cy="258" r="1.5" fill="#FFFFFF"/>
+  <path d="M 260 258 C 267 253 277 253 284 258" fill="none" stroke="#232326" stroke-width="2" stroke-linecap="round"/>
+
+  <ellipse cx="328" cy="260" rx="10.5" ry="6" fill="#FFFFFF"/>
+  <circle cx="328" cy="260" r="4.6" fill="#363433"/>
+  <circle cx="330.2" cy="258" r="1.5" fill="#FFFFFF"/>
+  <path d="M 316 258 C 323 253 333 253 340 258" fill="none" stroke="#232326" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Nose (Refined bridge) -->
+  <path d="M 300 255 L 298 295 C 294 298 306 298 302 295 Z" fill="none" stroke="#D2B09F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cheeks: natural healthy blush & lifted malar highlight -->
+  <ellipse cx="255" cy="295" rx="18" ry="10" fill="#E88D80" opacity="0.22"/>
+  <ellipse cx="345" cy="295" rx="18" ry="10" fill="#E88D80" opacity="0.22"/>
+  <ellipse cx="254" cy="285" rx="10" ry="4" fill="#FFFFFF" opacity="0.4"/>
+  <ellipse cx="346" cy="285" rx="10" ry="4" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Lips (Depois: Volumized, contoured, Cupid bow defined, gloss highlight) -->
+  <path d="M 281 326 C 292 320 308 320 319 326 C 312 336 288 336 281 326 Z" fill="#E27F78"/>
+  <path d="M 282 326 C 293 335 307 335 318 326 C 313 342 287 342 282 326 Z" fill="#CB6A62"/>
+  <!-- Lip gloss shine -->
+  <path d="M 292 333 C 298 335 302 335 308 333" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="295" cy="324" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="305" cy="324" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Chin (Mento Depois: Projected, elongated, defined contour) -->
+  <path d="M 290 380 C 296 386 304 386 310 380" fill="none" stroke="#D2B09F" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="300" cy="385" rx="16" ry="7" fill="#FFFFFF" opacity="0.3"/>
+</svg>

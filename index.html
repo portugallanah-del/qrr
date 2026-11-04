@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  
+  <title>Dra. Erica Lacerda | Harmonização Facial de Luxo • Residência HOF Harvard</title>
+  <meta name="description" content="Harmonização facial de alto padrão com a Dra. Erica Lacerda em Salvador. Residência HOF em Harvard, proporção áurea, simulação estética e agendamento exclusivo via WhatsApp." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dra. Erica Lacerda | Harmonização Facial de Luxo • Residência HOF Harvard" />
+  <meta property="og:description" content="Harmonização facial de alto padrão com a Dra. Erica Lacerda em Salvador. Residência HOF em Harvard, proporção áurea, simulação estética e agendamento exclusivo via WhatsApp." />
+  <meta property="og:image" content="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dra. Erica Lacerda | Harmonização Facial de Luxo • Residência HOF Harvard" />
+  <meta name="twitter:description" content="Harmonização facial de alto padrão com a Dra. Erica Lacerda em Salvador. Residência HOF em Harvard, proporção áurea, simulação estética e agendamento exclusivo via WhatsApp." />
+  <meta name="twitter:image" content="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" />
+
+  <!-- Preload Critical Images -->
+  <link rel="preload" href="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="preload" href="https://i.ibb.co/B5PTzsq1/Aging-woman-face-skin-e9ad43f7-2-K.webp" as="image" type="image/webp" />
+  <link rel="preload" href="https://i.ibb.co/SDmHnbKk/Remove-text-from-photo-b5df5806-2-K.webp" as="image" type="image/webp" />
+
+  <!-- Google Fonts: Cormorant Garamond, Jost, Great Vibes, Pinyon Script & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Playfair+Display:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/styles.css" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Dra. Erica Lacerda - Harmonização Facial de Luxo",
+    "image": "https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Internacional Trade Center - ITC - Rua Arthur de Azevêdo Machado, 1459 - Sala 504 - STIEP",
+      "addressLocality": "Salvador",
+      "addressRegion": "BA",
+      "postalCode": "41770-790",
+      "addressCountry": "BR"
+    },
+    "telephone": "+55 71 8177-6116",
+    "openingHours": "Mo-Fr 09:00-19:00",
+    "priceRange": "$$$$"
+  }
+  </script>
+
+  <!-- GSAP & ScrollTrigger CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <!-- Lenis Smooth Scroll CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Entry Line Curtain Reveal -->
+  <div id="entryCurtain" aria-hidden="true">
+    <div id="entryLine"></div>
+  </div>
+
+  <!-- Golden Wand (Varinha Dourada - Trecho Único Absoluto) -->
+  <svg id="wand" viewBox="0 0 110 110" aria-hidden="true">
+    <defs>
+      <linearGradient id="wg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FFF5D6" />
+        <stop offset="50%" stop-color="#F5E2A8" />
+        <stop offset="100%" stop-color="#9C7A32" />
+      </linearGradient>
+      <filter id="wandGlow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="4" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+    </defs>
+    <line x1="102" y1="102" x2="22" y2="22" stroke="url(#wg)" stroke-width="7" stroke-linecap="round" />
+    <line x1="98" y1="98" x2="26" y2="26" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+    <!-- Golden Star Tip at (14, 14) -->
+    <path class="tip" d="M14 0 L18 10 L28 14 L18 18 L14 28 L10 18 L0 14 L10 10 Z" fill="#FFF8DE" stroke="#E8D3A0" stroke-width="1.5" filter="url(#wandGlow)" />
+  </svg>
+
+  <!-- Custom Cursor Glow (Desktop) -->
+  <div id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Floating Navigation Bar -->
+  <header class="nav-wrap" role="banner">
+    <nav class="nav-bar glass" aria-label="Navegação principal">
+      <a href="#hero" class="nav-brand" aria-label="Dra. Erica Lacerda">
+        <span id="navDocName">Dra. Erica Lacerda</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#sobre">A Doutora</a></li>
+        <li><a href="#estudio">Estúdio</a></li>
+        <li><a href="#atendimento">Atendimento</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#agendar" class="btn btn--sm magnetic-btn nav-cta-btn">Agendar</a>
+        <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir ou fechar menu de navegação" aria-expanded="false" aria-controls="mobileCurtain">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Fullscreen Curtain Menu (Sanduíche) -->
+  <div class="mobile-curtain" id="mobileCurtain" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Menu de navegação">
+    <div class="mobile-curtain-inner">
+      <a href="#hero" class="mobile-link">Início</a>
+      <a href="#servicos" class="mobile-link">Serviços</a>
+      <a href="#galeria" class="mobile-link">Galeria</a>
+      <a href="#sobre" class="mobile-link">A Doutora</a>
+      <a href="#estudio" class="mobile-link">Estúdio</a>
+      <a href="#atendimento" class="mobile-link">Atendimento</a>
+      <a href="#faq" class="mobile-link">Dúvidas Frequentes</a>
+      <div class="mobile-curtain-cta">
+        <a href="#agendar" class="btn mobile-link">Agendar Avaliação</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- ======================================================================
+         1. Hero Section (Assinatura do Hero: Arco Giratório em 2 Sentidos)
+         ====================================================================== -->
+    <section class="hero" id="hero" aria-labelledby="heroTitle">
+      <div class="in">
+        <!-- Content Column (Left on desktop, second on mobile) -->
+        <div class="hero-content">
+          <h1 id="heroTitle">Seu rosto, na sua melhor <span class="hero-gold-script">versão.</span></h1>
+          <p class="hero-sub" id="heroSub">
+            Harmonização facial para realçar o que já é seu: proporção, frescor e naturalidade. Cada plano nasce de uma avaliação individual com a Dra. Erica Lacerda.
+          </p>
+          <div class="hero-actions">
+            <a href="#agendar" class="btn magnetic-btn">Quero agendar minha avaliação</a>
+            <a href="#servicos" class="btn btn--ghost magnetic-btn">Conhecer técnicas</a>
+          </div>
+        </div>
+
+        <!-- Doctor Photo Column (Right on desktop, FIRST on mobile via order:-1) -->
+        <div class="doc" id="doc">
+          <!-- Word Ring Behind Doctor Photo (z-index: 1) -->
+          <div class="doc__ring" aria-hidden="true">
+            <svg class="ring ring--txt" viewBox="0 0 400 400">
+              <defs>
+                <linearGradient id="goldRingGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#C59B4E" />
+                  <stop offset="35%" stop-color="#E8D3A0" />
+                  <stop offset="65%" stop-color="#B8924A" />
+                  <stop offset="100%" stop-color="#9C7A32" />
+                </linearGradient>
+                <filter id="goldShine" x="-10%" y="-10%" width="120%" height="120%">
+                  <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="rgba(156,122,50,0.3)" />
+                </filter>
+                <path id="ringPath" d="M200,200 m-172,0 a172,172 0 1,1 344,0 a172,172 0 1,1 -344,0" />
+              </defs>
+              <text class="ring__t" filter="url(#goldShine)">
+                <textPath href="#ringPath" textLength="1080" lengthAdjust="spacing">
+                  CUIDADO ✦ CONFIANÇA ✦ HARMONIA ✦ NATURALIDADE ✦ ELEGÂNCIA ✦ 
+                </textPath>
+              </text>
+            </svg>
+            <svg class="ring ring--line" viewBox="0 0 400 400">
+              <circle cx="200" cy="200" r="120" stroke="url(#goldRingGrad)" />
+            </svg>
+          </div>
+
+          <!-- Doctor Arch Photo (z-index: 2) -->
+          <figure class="doc__photo">
+            <img src="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" id="docPhotoImg" alt="Dra. Erica Lacerda" width="840" height="1050" fetchpriority="high" />
+          </figure>
+
+          <!-- Golden Wand Origin Anchor Point at bottom-right corner -->
+          <span id="wandAnchor" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. Faixa Dourada Marquee
+         ====================================================================== -->
+    <div class="band" role="region" aria-label="Conceitos da clínica">
+      <div class="band__track" id="bandTrack">
+        <span>Beauty</span>
+        <span>Harmonia</span>
+        <span>Naturalidade</span>
+        <span>Elegância</span>
+        <span>Cuidado</span>
+        <span>Confiança</span>
+        <span>Beauty</span>
+        <span>Harmonia</span>
+        <span>Naturalidade</span>
+        <span>Elegância</span>
+        <span>Cuidado</span>
+        <span>Confiança</span>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         3. Serviços com Anel Orbital e Transformação Antes/Depois
+         ====================================================================== -->
+    <section class="sec sec--alt sec-servicos" id="servicos" aria-labelledby="servicosTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="servicosTitle">Cada rosto pede um cuidado diferente</h2>
+          <p class="sec-sub">Técnicas precisas e personalizadas para valorizar seus traços com leveza, equilíbrio e máxima naturalidade.</p>
+        </div>
+
+        <!-- Orbital Stage (Inspired by Overlay) -->
+        <div class="orb-stage" id="orb">
+          <svg class="orb-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+            <ellipse class="orb-ellipse" cx="50" cy="50" rx="38" ry="42" vector-effect="non-scaling-stroke" />
+          </svg>
+
+          <!-- Central Oval Transformation Photo (Target of Golden Wand) -->
+          <div class="mag" id="mag" role="img" aria-label="Simulação de transformação facial antes e depois">
+            <div class="mag__l mag__before" id="magBefore" style="background-image: url('/img/antes.webp');"></div>
+            <div class="mag__l mag__after" id="magAfter" style="background-image: url('/img/depois.webp');"></div>
+            <div class="particle-burst" id="particleBurst" aria-hidden="true"></div>
+            <i id="glow" aria-hidden="true"></i>
+            <span class="mag__tag" id="magTag">Antes</span>
+          </div>
+
+          <!-- 5 Orbital Chips dynamically placed and revolving with scroll -->
+        </div>
+
+        <p class="transform-caption" id="transformDisclaimer">Resultados variam de pessoa para pessoa.</p>
+
+        <!-- 5 Services Cards Grid (Foto, Nome e Descrição) -->
+        <div class="svc-grid" id="svcGrid" role="region" aria-label="Lista de serviços">
+          <!-- Populated dynamically via config.js -->
+        </div>
+
+        <div class="svc-actions">
+          <a href="https://wa.me/557181776116?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20os%20demais%20procedimentos%20com%20a%20Dra.%20Erica%20Lacerda" target="_blank" rel="noopener noreferrer" class="btn btn--ghost magnetic-btn">
+            Conhecer mais serviços
+          </a>
+          <a href="#agendar" class="btn magnetic-btn">Agendar avaliação</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. Galeria Estática (Mosaico de Fotos Reais)
+         ====================================================================== -->
+    <section class="sec sec-galeria" id="galeria" aria-labelledby="galeriaTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="galeriaTitle">O cuidado, em cada detalhe</h2>
+          <p class="sec-sub">Rostos reais, resultados naturais, sempre com autorização das pacientes.</p>
+        </div>
+
+        <div class="gal" id="galMosaic" role="region" aria-label="Mosaico de resultados">
+          <!-- Populated dynamically from config.galeria -->
+        </div>
+
+        <div class="svc-actions" style="margin-top: 44px;">
+          <a href="#agendar" class="btn magnetic-btn">Agendar minha avaliação</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização ampliada">&times;</button>
+        <button class="lightbox-btn lightbox-prev" id="lightboxPrev" aria-label="Foto anterior">&#10094;</button>
+        <button class="lightbox-btn lightbox-next" id="lightboxNext" aria-label="Próxima foto">&#10095;</button>
+        <div class="lightbox-img-wrap">
+          <img src="" id="lightboxImg" alt="" />
+        </div>
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+    </div>
+
+    <section id="gt-sec" class="gt-sec">
+      <div class="gt-stg" id="gt-stg">
+        <div class="gt-tx">
+          <h2 id="gt-titulo">Harmonia que respeita <span class="gt-au">quem você é.</span></h2>
+          <p class="gt-sub" id="gt-subtitulo">Cada região do rosto pede uma técnica. O seu plano é feito sob medida, com olhar artístico e resultado natural.</p>
+          <div class="gt-btn-group">
+            <a class="gt-btn" href="#servicos">Ver serviços</a>
+            <a class="gt-btn gt-o" href="#agendar">Agendar avaliação</a>
+          </div>
+        </div>
+
+        <div class="gt-orbit" id="gt-orbit">
+          <svg class="gt-rsvg" viewBox="0 0 400 400" aria-hidden="true">
+            <defs>
+              <path id="gt-rp" d="M200,200 m-185,0 a185,185 0 1,1 370,0 a185,185 0 1,1 -370,0"/>
+            </defs>
+            <circle cx="200" cy="200" r="164"/>
+            <text><textPath href="#gt-rp" textLength="1150" lengthAdjust="spacing" id="gt-orbittext">FULL FACE ✦ PREENCHIMENTO LABIAL ✦ PREENCHIMENTO DE MENTO ✦ BOTOX ✦ PREENCHIMENTO DE OLHEIRA ✦ </textPath></text>
+          </svg>
+          <div class="gt-circ" id="gt-circ" role="img" aria-label="Rosto antes e depois da harmonização facial">
+            <div class="gt-ph"></div>
+            <div class="gt-ph gt-y" id="gt-yc"></div>
+            <i id="gt-front"></i>
+            <span class="gt-lb gt-glass" id="gt-lb">Antes</span>
+          </div>
+        </div>
+
+        <svg id="gt-fx" aria-hidden="true">
+          <defs>
+            <radialGradient id="gt-gg" cx="0.35" cy="0.3" r="0.9">
+              <stop offset="0%" stop-color="#fff"/>
+              <stop offset="45%" stop-color="#F7E6B0"/>
+              <stop offset="100%" stop-color="#CFA650"/>
+            </radialGradient>
+            <filter id="gt-ds" x="-50%" y="-50%" width="200%" height="200%">
+              <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#8A6A2E" flood-opacity="0.35"/>
+            </filter>
+          </defs>
+          <path id="gt-hang" fill="url(#gt-gg)" stroke="#fff" stroke-opacity="0.85" stroke-width="1.5" filter="url(#gt-ds)"/>
+          <path id="gt-fall" fill="url(#gt-gg)" stroke="#fff" stroke-opacity="0.85" stroke-width="1.5" filter="url(#gt-ds)"/>
+          <ellipse id="gt-hl" fill="#fff" opacity="0.8"/>
+        </svg>
+
+        <div id="gt-rip" aria-hidden="true">
+          <i style="--m:220"></i>
+          <i style="--m:380"></i>
+          <i style="--m:560"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linha Dourada separando o fim da animação da gota e o início da seção Sobre a Dra. Erica Lacerda -->
+    <div class="gt-gold-divider" aria-hidden="true">
+      <span class="gt-gold-divider-line"></span>
+      <span class="gt-gold-divider-gem">✦</span>
+      <span class="gt-gold-divider-line"></span>
+    </div>
+
+    <!-- ======================================================================
+         5. Sobre a Doutora (Texto Emocional, Técnico, Contadores e Mentoria VIP)
+         ====================================================================== -->
+    <section class="sec sec--alt sec-sobre" id="sobre" aria-labelledby="sobreTitle">
+      <div class="sec-container">
+        <div class="sobre-grid">
+          <!-- Doctor Arch Portrait with Floating Subtle Cards -->
+          <div class="sobre-photo-wrap">
+            <div class="sobre-frame" aria-hidden="true"></div>
+            <div class="sobre-photo-arch">
+              <img src="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" id="sobrePhotoImg" alt="Dra. Erica Lacerda no estúdio" width="800" height="1000" loading="lazy" />
+            </div>
+
+            <!-- Subtle Floating Cards over the Photo -->
+            <div class="sobre-floating-cards" aria-label="Diferenciais da Dra. Erica Lacerda">
+              <div class="sobre-card-pill glass-pill">
+                <span class="pill-star">✦</span> Naturalidade &amp; Proporção
+              </div>
+              <div class="sobre-card-pill glass-pill">
+                <span class="pill-star">✦</span> Atendimento Exclusivo
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Details -->
+          <div class="sobre-text">
+            <h2 id="sobreTitle">Sua beleza é <span class="hero-gold-script">única.</span> O cuidado também.</h2>
+            <p class="sec-sub" id="sobreSub" style="margin-top: 0; margin-bottom: 22px;">
+              Conheça a Dra. Erica Lacerda, especialista em Harmonização Orofacial em Salvador com Residência HOF em Harvard.
+            </p>
+
+            <div class="sobre-bio-box">
+              <p class="emocional" id="sobreEmocional">
+                Acredito que nenhum rosto precisa ser copiado. Cada traço conta uma história, e o meu trabalho é revelar o que já existe em você, com delicadeza e escuta. Quando uma paciente se olha no espelho e se reconhece, mais descansada, mais confiante e ainda assim ela mesma, sei que fiz meu papel. Aqui você não é um procedimento: é uma pessoa com expectativas, receios e um jeito único de ser bonita.
+              </p>
+              <div class="sobre-bio-divider" aria-hidden="true"></div>
+              <p class="tecnico" id="sobreTecnico">
+                Dra. Erica Lacerda é referência em Harmonização Orofacial de Alto Padrão em Salvador, com Residência HOF na prestigiosa Harvard (EUA). Une rigor científico internacional, domínio minucioso da anatomia cirúrgica facial e técnica apurada para proporcionar resultados de elegância ímpar, rejuvenescimento expressivo e absoluta naturalidade.
+              </p>
+              <blockquote class="sobre-quote">
+                <p id="sobreCitacao">“Harmonizar não é transformar você em outra pessoa — é devolver ao espelho a sua versão mais descansada, elegante e confiante.”</p>
+                <cite>— Dra. Erica Lacerda</cite>
+              </blockquote>
+            </div>
+
+            <div class="sobre-numbers">
+              <div class="stat-item">
+                <span class="stat-val" data-count="5" data-sufixo="+">0</span>
+                <span class="stat-lbl">anos de experiência</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" data-count="800" data-sufixo="+">0</span>
+                <span class="stat-lbl">pacientes atendidas</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" data-count="5" data-sufixo=".0">0</span>
+                <span class="stat-lbl">avaliação média</span>
+              </div>
+            </div>
+
+            <div class="sobre-action">
+              <a href="#agendar" class="btn magnetic-btn">Agendar com a Dra. Erica Lacerda</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mentoria VIP Dra. Erica Lacerda (Destaque Exclusivo no final da seção Sobre) -->
+        <div class="mentoria-vip-container">
+          <div class="mentoria-vip-card">
+            <div class="mentoria-content">
+              <div class="mentoria-top-badge">
+                <span class="dot"></span>
+                <span>🇺🇸 Residência HOF Harvard • Mentoria VIP Exclusiva</span>
+              </div>
+              <h3 class="mentoria-title">
+                Mentoria VIP com a <span>Dra. Erica Lacerda</span>
+              </h3>
+              <p class="mentoria-sub" style="margin-bottom: 32px;">
+                Uma imersão clínica individual de alto padrão para médicos e cirurgiões-dentistas que desejam dominar o raciocínio anatômico tridimensional, protocolos de refinamento facial e segurança contra intercorrências com a metodologia da Residência HOF de Harvard.
+              </p>
+
+              <div class="mentoria-action-wrap">
+                <a href="https://wa.me/557181776116?text=Ol%C3%A1%2C%20Dra.%20Erica!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20sua%20Mentoria%20VIP%20em%20Harmoniza%C3%A7%C3%A3o%20Facial." target="_blank" rel="noopener noreferrer" class="btn btn--mentoria magnetic-btn">
+                  <span>Candidatar-se à Mentoria VIP</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <span class="mentoria-slots-note">✦ Vagas individuais e estritamente limitadas por semestre</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. Instagram com Reels Integrado
+         ====================================================================== -->
+    <section class="sec sec-instagram" id="instagram" aria-labelledby="instaTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="instaTitle">Acompanhe o dia a dia no Instagram</h2>
+          <p class="sec-sub">Bastidores, cuidados e resultados reais, sem sair daqui.</p>
+        </div>
+
+        <div class="reel-card glass" style="max-width: 460px; margin: 0 auto; overflow: hidden; border-radius: 28px; border: 1.5px solid var(--gold); box-shadow: 0 24px 60px rgba(0,0,0,0.45); background: #18181B;">
+          <div class="reel-header-overlay" style="background: rgba(26,26,29,0.95); padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(212,175,55,0.25);">
+            <div class="reel-user" style="display: flex; align-items: center; gap: 10px;">
+              <img src="https://i.ibb.co/qLssVCVg/Save-Clip-App-858813706-18345036889284945-1804410781011904628-n.webp" class="reel-avatar" alt="Avatar Dra. Erica Lacerda" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; object-position: center 15%; border: 1.5px solid var(--gold);" />
+              <div>
+                <span style="font-weight: 600; color: #FFFFFF; font-size: 14px; display: block;">@draericalacerda</span>
+                <span style="font-size: 11px; color: var(--gold-2); display: block;">🇺🇸 Residência HOF - Harvard</span>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/reel/DdkG-NcsR1Z/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--gold-3); text-decoration: none; padding: 4px 12px; border: 1px solid rgba(212,175,55,0.4); border-radius: 20px; font-weight: 500;">
+              Abrir no App ↗
+            </a>
+          </div>
+
+          <div class="reel-phone" style="position: relative; width: 100%; min-height: 520px; background: #0D0D10; display: flex; justify-content: center; align-items: center;">
+            <iframe
+              src="https://www.instagram.com/reel/DdkG-NcsR1Z/embed"
+              width="100%"
+              height="520"
+              frameborder="0"
+              scrolling="no"
+              allowtransparency="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              title="Reels da Dra. Erica Lacerda no Instagram"
+              style="width: 100%; height: 520px; border: 0;">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="svc-actions" style="margin-top: 28px;">
+          <a href="https://www.instagram.com/draericalacerda/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost magnetic-btn">
+            Seguir @draericalacerda no Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. Feedbacks (Animação de Slider Infinito Vertical com Mais de 10 Avaliações)
+         ====================================================================== -->
+    <section class="sec sec--alt sec-feedbacks" id="feedbacks" aria-labelledby="feedbacksTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="feedbacksTitle">Quem confiou, voltou a se <span class="hero-gold-script">amar.</span></h2>
+          <p class="sec-sub">Relatos reais de pacientes sobre o cuidado, acolhimento e o resultado natural.</p>
+        </div>
+
+        <!-- Vertical Infinite Slider Columns with Top/Bottom Gradient Mask -->
+        <div class="feedbacks-slider-wrapper" id="feedbacksSliderWrapper" role="region" aria-label="Depoimentos de pacientes">
+          <div class="feedbacks-col" id="fbCol1"></div>
+          <div class="feedbacks-col hidden-mobile" id="fbCol2"></div>
+          <div class="feedbacks-col hidden-tablet" id="fbCol3"></div>
+        </div>
+
+        <div class="svc-actions" style="margin-top: 42px;">
+          <a href="#agendar" class="btn magnetic-btn">Agendar minha avaliação</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. Estúdio e Localização
+         ====================================================================== -->
+    <section class="sec sec-estudio" id="estudio" aria-labelledby="estudioTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="estudioTitle">Um espaço pensado para o seu bem-estar</h2>
+          <p class="sec-sub">Privacidade, conforto e biossegurança em cada detalhe da sua visita.</p>
+        </div>
+
+        <!-- Infinite Carousel of Studio Photos: Square Borders, Gold Borders, Click to Expand -->
+        <div class="estudio-carousel-wrap" role="region" aria-label="Fotos do espaço da clínica">
+          <div class="estudio-carousel-track" id="estudioCarouselTrack">
+            <div class="estudio-card" data-idx="0" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-1.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="1" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-2.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="2" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-3.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="3" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-4.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="0" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-1.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="1" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-2.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="2" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-3.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+            <div class="estudio-card" data-idx="3" tabindex="0" role="button" aria-label="Espaço Dra. Erica Lacerda"><img src="/img/studio-4.svg" alt="Espaço da clínica" width="600" height="450" /><span class="estudio-card-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span></div>
+          </div>
+        </div>
+
+        <div class="estudio-grid">
+          <!-- Hidden fallback mosaic ID for compatibility -->
+          <div id="estudioMosaic" style="display: none;"></div>
+
+          <!-- Location & Map Card -->
+          <div class="estudio-map-card">
+            <div class="map-frame-wrap">
+              <iframe
+                id="mapsFrame"
+                src="https://maps.google.com/maps?q=Internacional+Trade+Center+ITC+Rua+Arthur+de+Azevedo+Machado+1459+Salvador+BA&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Localização do estúdio Dra. Erica Lacerda no ITC">
+              </iframe>
+            </div>
+
+            <div class="estudio-info-card glass">
+              <h3>Endereço &amp; Facilidades</h3>
+              <p id="estudioEndereco">Internacional Trade Center- ITC - Rua Arthur de Azevêdo Machado, 1459 - Sala 504 - STIEP, Salvador - BA, 41770-790</p>
+              <p id="estudioHorario"><strong>Horário:</strong> Segunda a Sexta, das 09h às 19h • Atendimento exclusivo com hora marcada</p>
+
+              <div class="estudio-links">
+                <a href="https://maps.google.com/?q=Internacional+Trade+Center+ITC+Rua+Arthur+de+Azevedo+Machado+1459+Salvador+BA" id="mapsLink" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--white">
+                  Abrir no Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-actions">
+          <a href="#agendar" class="btn magnetic-btn">Agendar minha visita</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         9. Como Funciona o Atendimento (Educativa)
+         ====================================================================== -->
+    <section class="sec sec--alt sec-atendimento" id="atendimento" aria-labelledby="atendimentoTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="atendimentoTitle">Seu atendimento começa antes da consulta</h2>
+          <p class="sec-sub">Em poucos passos, nossa equipe entende o que te incomoda e prepara o melhor plano.</p>
+        </div>
+
+        <!-- Animated Gold Drawn Line Timeline -->
+        <div class="tl-wrap">
+          <svg class="tl-path-svg" id="tl" viewBox="0 0 2 600" preserveAspectRatio="none" aria-hidden="true">
+            <line x1="1" y1="0" x2="1" y2="600" stroke-dasharray="600" stroke-dashoffset="600" />
+          </svg>
+
+          <div class="tl-steps" id="tlSteps">
+            <!-- Populated dynamically via config.atendimento -->
+          </div>
+        </div>
+
+        <!-- Photo Submission Guide Card -->
+        <div class="photo-guide-card glass">
+          <h3>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            Guia para Envio das Fotos de Pré-Avaliação
+          </h3>
+          <p style="font-size: 15px; color: var(--ink-soft);">
+            Para adiantar sua pré-análise com máxima precisão diagnóstica, recomendamos:
+          </p>
+          <div class="photo-guide-grid">
+            <div class="guide-item">
+              <span class="icon">✦</span>
+              <span><strong>Luz natural:</strong> De frente para uma janela, sem sombras marcadas.</span>
+            </div>
+            <div class="guide-item">
+              <span class="icon">✦</span>
+              <span><strong>Pele limpa:</strong> Sem maquiagem, filtro ou corretivo.</span>
+            </div>
+            <div class="guide-item">
+              <span class="icon">✦</span>
+              <span><strong>Cabelo preso:</strong> Orelhas e contorno do pescoço visíveis.</span>
+            </div>
+            <div class="guide-item">
+              <span class="icon">✦</span>
+              <span><strong>3 ângulos:</strong> Uma foto de frente, perfil direito e perfil esquerdo.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-actions" style="margin-top: 40px;">
+          <a href="#agendar" class="btn magnetic-btn">Iniciar atendimento com a equipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         10. Agendamento: Simulador Estilo Aplicativo (Skynex) e Formulário
+         ====================================================================== -->
+    <section class="sec sec-agendamento" id="agendar" aria-labelledby="agendarTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="agendarTitle">Agende sua <span class="hero-gold-script">avaliação</span></h2>
+          <p class="sec-sub">Preencha seus dados para agendar seu atendimento personalizado pelo WhatsApp. Ao lado, você também pode testar nosso simulador de forma meramente ilustrativa.</p>
+        </div>
+
+        <div class="booking-grid">
+          <!-- Left: App-Style Interactive Simulator (Inspired by Skynex) -->
+          <div class="app glass" id="app" role="region" aria-label="Simulador estético de procedimentos">
+            <div class="sm">
+              <div class="sm__base" style="background-image: url('/img/antes.webp');"></div>
+              <div class="ov" data-k="labios" style="background-image: url('/img/depois.webp');"></div>
+              <div class="ov" data-k="queixo" style="background-image: url('/img/depois.webp');"></div>
+              <div class="ov" data-k="olhos" style="background-image: url('/img/depois.webp');"></div>
+              <div class="ov" data-k="full" style="background-image: url('/img/depois.webp');"></div>
+              <i class="scan" aria-hidden="true"></i>
+            </div>
+
+            <div class="sim-instruction">
+              <span class="sim-instruction-icon" aria-hidden="true">✦</span>
+              <span>Clique nos botões abaixo para ver a diferença no rosto:</span>
+            </div>
+
+            <div class="opts" id="simOpts">
+              <button type="button" data-k="labios">Olhar descansado</button>
+              <button type="button" data-k="queixo">Mais boca</button>
+              <button type="button" data-k="full">Rejuvenescer tudo</button>
+            </div>
+
+            <div class="slider-wrap">
+              <label for="it">
+                <span>Intensidade da simulação</span>
+                <span id="itVal">80%</span>
+              </label>
+              <input type="range" id="it" min="25" max="100" value="80" aria-label="Controle de intensidade da simulação" />
+            </div>
+
+            <p class="sim-disclaimer">
+              A simulação é ilustrativa. O resultado real é definido na avaliação presencial, respeitando suas proporções e biotipo.
+            </p>
+          </div>
+
+          <!-- Right: Qualified Lead Form & Live WhatsApp Speech Bubble -->
+          <div class="booking-form-wrap">
+            <form id="bookingForm" class="glass-card booking-form-card" novalidate>
+              <div class="form-group">
+                <label for="nomeField">Seu nome completo *</label>
+                <input type="text" id="nomeField" class="form-input" placeholder="Como você prefere ser chamada?" required />
+                <span class="form-error" id="nomeError">Por favor, informe seu nome para iniciarmos seu atendimento.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="servicoSel">Procedimento de maior interesse</label>
+                <select id="servicoSel" class="form-select">
+                  <option value="Ainda não sei, quero uma avaliação">Ainda não sei, quero uma avaliação completa</option>
+                  <!-- Populated from config.servicos -->
+                </select>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="diaField">Dia de preferência</label>
+                  <select id="diaField" class="form-select">
+                    <option value="Qualquer dia útil (Seg a Sex)" selected>Qualquer dia útil (Seg a Sex)</option>
+                    <option value="Segunda-feira">Segunda-feira</option>
+                    <option value="Terça-feira">Terça-feira</option>
+                    <option value="Quarta-feira">Quarta-feira</option>
+                    <option value="Quinta-feira">Quinta-feira</option>
+                    <option value="Sexta-feira">Sexta-feira</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="horarioField">Melhor período para contato</label>
+                  <select id="horarioField" class="form-select">
+                    <option value="Manhã (09h às 12h)">Manhã (09h às 12h)</option>
+                    <option value="Tarde (13h às 17h)" selected>Tarde (13h às 17h)</option>
+                    <option value="Final do dia (17h às 19h)">Final do dia (17h às 19h)</option>
+                    <option value="Qualquer horário comercial">Qualquer horário comercial</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="queixaField">O que mais te incomoda hoje?</label>
+                <textarea id="queixaField" class="form-textarea" placeholder="Ex: Sinto que meus lábios perderam volume, ou quero suavizar o olhar cansado..."></textarea>
+              </div>
+
+              <p class="form-photo-subtle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+                <span>Para sua privacidade, o envio da foto é feito diretamente na conversa do WhatsApp após clicar em enviar.</span>
+              </p>
+
+              <!-- Live WhatsApp Speech Bubble Preview -->
+              <div class="wa-preview-card" style="margin-top: 14px;">
+                <div class="wa-preview-header">
+                  <span>PRÉ-VISUALIZAÇÃO DA MENSAGEM WHATSAPP</span>
+                  <span style="color: var(--gold-3);">✓ Mensagem pré-formatada</span>
+                </div>
+                <div class="wa-bubble" id="waBubblePreview" aria-live="polite">
+                  Carregando mensagem...
+                </div>
+                <div class="wa-bubble-meta">
+                  <span id="waBubbleTime">12:00</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="#53BDEB"><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.41 11.93l-1.41 1.41 5.66 5.66 12-12-1.42-1.41zM.41 13.41L6.07 19.07l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                </div>
+              </div>
+
+              <div class="form-buttons">
+                <button type="submit" class="btn magnetic-btn" id="sendBtn" style="flex: 1;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                  Enviar pelo WhatsApp
+                </button>
+                <button type="button" class="btn btn--ghost magnetic-btn" id="copyBtn">
+                  Copiar mensagem
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         11. FAQ (Perguntas Frequentes em Acordeão)
+         ====================================================================== -->
+    <section class="sec sec--alt sec-faq" id="faq" aria-labelledby="faqTitle">
+      <div class="sec-container">
+        <div class="sec-head">
+          <h2 id="faqTitle">Perguntas frequentes</h2>
+          <p class="sec-sub">Respostas transparentes e objetivas sobre segurança, recuperação e resultados.</p>
+        </div>
+
+        <div class="faq-list" id="faqList" role="region" aria-label="Acordeão de dúvidas frequentes">
+          <!-- Populated from config.faq -->
+        </div>
+
+        <div class="svc-actions" style="margin-top: 48px;">
+          <a href="https://wa.me/557181776116?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20os%20procedimentos%20com%20a%20Dra.%20Erica%20Lacerda" target="_blank" rel="noopener noreferrer" class="btn btn--ghost magnetic-btn">
+            Tirar outra dúvida com nossa equipe
+          </a>
+          <a href="#agendar" class="btn magnetic-btn">Agendar minha avaliação</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       12. Rodapé em Fundo Grafite (--graphite)
+       ====================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-in">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3 id="footerName">Dra. Erica Lacerda</h3>
+          <p class="footer-reg" id="footerReg">🇺🇸 Residência HOF Harvard • CRO-BA • Harmonização Facial de Alto Padrão</p>
+          <p class="footer-desc">
+            Harmonização facial individualizada para realçar sua proporção e beleza natural com excelência clínica, formação internacional em Harvard e conforto.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#servicos">Procedimentos</a></li>
+            <li><a href="#galeria">Resultados</a></li>
+            <li><a href="#sobre">A Especialista</a></li>
+            <li><a href="#estudio">O Estúdio ITC</a></li>
+            <li><a href="#atendimento">Como Funciona</a></li>
+            <li><a href="#agendar">Simulador &amp; Agendamento</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atendimento</h4>
+          <div class="footer-contact-item" id="footerAddr">
+            Internacional Trade Center - ITC - Rua Arthur de Azevêdo Machado, 1459 - Sala 504 - STIEP, Salvador - BA, 41770-790
+          </div>
+          <div class="footer-contact-item" id="footerHours">
+            Segunda a Sexta, das 09h às 19h<br />Atendimento com hora marcada
+          </div>
+          <div class="footer-contact-item" id="footerSocial">
+            Instagram: <a href="https://www.instagram.com/draericalacerda/" target="_blank" rel="noopener noreferrer">@draericalacerda</a><br />
+            WhatsApp: <a href="https://wa.me/557181776116" target="_blank" rel="noopener noreferrer">+55 71 8177-6116</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">
+          Resultados variam de pessoa para pessoa. Este site não substitui avaliação clínica presencial. Imagens e relatos com autorização expressa dos pacientes.
+        </p>
+        <p class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Dra. Erica Lacerda. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button (Official WhatsApp Logo) -->
+  <a href="https://wa.me/557181776116?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Erica%20Lacerda." target="_blank" rel="noopener noreferrer" class="wa-float" id="waFloat" aria-label="Falar conosco no WhatsApp">
+    <svg viewBox="0 0 32 32" width="34" height="34" fill="currentColor" aria-hidden="true">
+      <path d="M16.01 0C7.18 0 0 7.18 0 16.01c0 2.82.74 5.56 2.14 7.99L.1 32l8.22-2.15c2.37 1.29 5.04 1.97 7.69 1.97 8.83 0 16.01-7.18 16.01-16.01S24.84 0 16.01 0zm0 29.31c-2.43 0-4.81-.65-6.88-1.89l-.49-.29-5.11 1.34 1.36-4.98-.32-.51C3.21 21.05 2.5 18.57 2.5 16.01 2.5 8.56 8.56 2.5 16.01 2.5c7.45 0 13.51 6.06 13.51 13.51 0 7.45-6.06 13.3-13.51 13.3zm7.42-9.98c-.41-.2-2.42-1.19-2.79-1.33-.37-.14-.64-.2-.91.2-.27.41-1.05 1.33-1.29 1.6-.24.27-.47.3-.88.1-.41-.2-1.74-.64-3.32-2.05-1.23-1.1-2.06-2.46-2.3-2.87-.24-.41-.03-.63.18-.83.18-.18.41-.47.61-.71.2-.24.27-.41.41-.68.14-.27.07-.51-.03-.71-.1-.2-.91-2.2-1.25-3.02-.33-.79-.67-.68-.91-.69l-.78-.01c-.27 0-.71.1-1.08.51-.37.41-1.42 1.39-1.42 3.38s1.45 3.92 1.66 4.19c.2.27 2.86 4.37 6.93 6.13.97.42 1.72.67 2.31.86.97.31 1.86.27 2.56.16.78-.12 2.42-.99 2.76-1.94.34-.95.34-1.77.24-1.94-.1-.17-.37-.27-.78-.47z"/>
+    </svg>
+  </a>
+
+  <!-- Application Logic (ES Module) -->
+  <script type="module" src="/app.js"></script>
+  <script>
+    (function () {
+      const GOTA = {
+        /* ponto onde a gota cai dentro do círculo (0 a 1). Ajuste para cair na pele do rosto. */
+        impacto: { x: 0.5, y: 0.6 }
+      };
+
+      const $ = (s, ctx = document) => ctx.querySelector(s);
+      const cl = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+      const ez = (t) => t * t * (3 - 2 * t);
+
+      function initDropAnimation() {
+        const c2 = $('#gt-sec');
+        const stg = $('#gt-stg');
+        const circ = $('#gt-circ');
+        const hang = $('#gt-hang');
+        const fall = $('#gt-fall');
+        const hl = $('#gt-hl');
+        const front = $('#gt-front');
+        const yc = $('#gt-yc');
+        const rip = $('#gt-rip');
+        const lb = $('#gt-lb');
+
+        if (!c2 || !stg || !circ) return;
+
+        const IX = GOTA.impacto.x;
+        const IY = GOTA.impacto.y;
+        const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        // posiciona o anel de luz e o início do reveal no ponto de impacto
+        front.style.left = `${IX * 100}%`;
+        front.style.top = `${IY * 100}%`;
+        yc.style.clipPath = `circle(0% at ${IX * 100}% ${IY * 100}%)`;
+
+        // 9 gotículas do respingo
+        const SP = [...Array(9)].map((_, i) => {
+          const d = document.createElement('i');
+          d.className = 'gt-sp';
+          stg.appendChild(d);
+          return {
+            d,
+            a: Math.PI * (0.12 + (0.76 * i) / 8),
+            v: 52 + (i % 3) * 24
+          };
+        });
+
+        // Gota pendurada com filete largo na base (fl), pescoço (nw) e bulbo (bw) até comprimento L
+        const hangPath = (x, L, nw, bw) => {
+          if (L < 2) return '';
+          const fl = nw + 26;
+          const by = Math.max(L - bw, 2);
+          return (
+            `M${x - fl} 0C${x - nw - 4} 3 ${x - nw} ${L * 0.1} ${x - nw} ${L * 0.3}C${x - nw} ${L * 0.55} ${x - bw} ${L * 0.5} ${x - bw} ${by}` +
+            `A${bw} ${bw} 0 0 0 ${x + bw} ${by}C${x + bw} ${L * 0.5} ${x + nw} ${L * 0.55} ${x + nw} ${L * 0.3}C${x + nw} ${L * 0.1} ${x + nw + 4} 3 ${x + fl} 0Z`
+          );
+        };
+
+        // Gota em queda esticada por s
+        const dropPath = (x, y, r, s) =>
+          `M${x} ${y - r * 1.9 * s}C${x + r * 0.15} ${y - r * s} ${x + r} ${y - r * 0.5} ${x + r} ${y}A${r} ${r} 0 0 1 ${x - r} ${y}C${x - r} ${y - r * 0.5} ${x - r * 0.15} ${y - r * s} ${x} ${y - r * 1.9 * s}Z`;
+
+        let targetP = 0;
+        let smoothP = 0;
+        let targetA = 0;
+        let smoothA = 0;
+
+        function updateTargets() {
+          const isMobile = window.innerWidth <= 820;
+          const r = c2.getBoundingClientRect();
+          const vh = window.innerHeight || 1;
+
+          if (isMobile) {
+            stg.style.position = 'relative';
+            stg.style.top = 'auto';
+            stg.style.bottom = 'auto';
+            stg.style.left = 'auto';
+            stg.style.width = '100%';
+
+            const cbNow = circ.getBoundingClientRect();
+            // No mobile: janela ampla de rolagem sem travar a tela
+            const startY = vh * 0.92;
+            const endY = vh * 0.08;
+            targetA = cl((vh * 1.05 - cbNow.top) / (vh * 0.25));
+            targetP = still ? 1 : cl((startY - cbNow.top) / Math.max(1, startY - endY));
+          } else {
+            const stgH = stg.offsetHeight || vh;
+            targetA = cl(1 - r.top / vh);
+            targetP = still ? 1 : cl(-r.top / Math.max(1, r.height - stgH));
+
+            if (r.top <= 0 && r.bottom >= stgH) {
+              stg.style.position = 'fixed';
+              stg.style.top = '0px';
+              stg.style.bottom = 'auto';
+              stg.style.left = '0px';
+              stg.style.width = '100%';
+            } else if (r.bottom < stgH) {
+              stg.style.position = 'absolute';
+              stg.style.top = 'auto';
+              stg.style.bottom = '0px';
+              stg.style.left = '0px';
+              stg.style.width = '100%';
+            } else {
+              stg.style.position = 'sticky';
+              stg.style.top = '0px';
+              stg.style.bottom = 'auto';
+              stg.style.left = '0px';
+              stg.style.width = '100%';
+            }
+          }
+        }
+
+        function renderFrame() {
+          updateTargets();
+
+          if (still) {
+            smoothP = targetP;
+            smoothA = targetA;
+          } else {
+            // Suavização fluida com amortecimento líquido elegante
+            const dp = targetP - smoothP;
+            const da = targetA - smoothA;
+            smoothP += dp * 0.14;
+            smoothA += da * 0.14;
+            if (Math.abs(dp) < 0.0004) smoothP = targetP;
+            if (Math.abs(da) < 0.0004) smoothA = targetA;
+          }
+
+          const p = smoothP;
+          const a = smoothA;
+          const isMobile = window.innerWidth <= 820;
+
+          const s = stg.getBoundingClientRect();
+          const cb = circ.getBoundingClientRect();
+          const ix = cb.left - s.left + IX * cb.width;
+          const iy = cb.top - s.top + IY * cb.height;
+          const sc = isMobile ? 0.65 : 1;
+          const rSc = isMobile ? 0.78 : 1;
+
+          let L = 0,
+            nw = 15 * rSc,
+            bw = 9 * rSc;
+
+          if (still) {
+            hang.setAttribute('d', '');
+            fall.setAttribute('d', '');
+            hl.setAttribute('rx', '0');
+          } else {
+            // 1. Formação e acúmulo da gota no teto (p <= 0.12)
+            if (p <= 0) {
+              const k = ez(cl((a - 0.45) / 0.55));
+              L = (8 + k * 97) * sc;
+              bw = (8 + k * 18) * rSc;
+              nw = (15 - k * 3) * rSc;
+            } else if (p < 0.12) {
+              const k = p / 0.12;
+              L = (105 + k * 28) * sc;
+              bw = (26 + k * 5) * rSc;
+              nw = (12 - k * 8) * rSc;
+            } else {
+              // Menisco e retração sutil do filamento
+              const k = ez(cl((p - 0.12) / 0.08));
+              L = (1 - k) * 36 * sc;
+              bw = 7 * rSc;
+              nw = (7 * (1 - k) + 2) * rSc;
+            }
+            hang.setAttribute('d', hangPath(ix, L, nw, bw));
+
+            // 2. Queda natural e visível da gota dourada (p de 0.12 a 0.54)
+            let fy = 0,
+              fr = 0,
+              fs = 1;
+            if (p >= 0.12 && p < 0.56) {
+              // Progresso normalizado da queda [0 a 1]
+              const k = cl((p - 0.12) / 0.42);
+              const y0 = 104 * sc;
+
+              // Curva de gravidade suave e balanceada (sem disparar rápido demais)
+              const easeFall = k * (0.38 + 0.62 * k);
+              fy = y0 + (iy - y0) * easeFall;
+
+              // Formato e aerodinâmica da gota
+              fr = 31 * rSc * (1 - 0.08 * k);
+              fs = 1 + 0.46 * Math.sin(k * Math.PI);
+
+              // Desaparece com precisão no instante do contato com a pele
+              if (k >= 0.92) {
+                fr *= (1 - (k - 0.92) / 0.08);
+              }
+            }
+
+            if (fr > 0) {
+              fall.setAttribute('d', dropPath(ix, fy, fr, fs));
+              hl.setAttribute('cx', `${ix - fr * 0.35}`);
+              hl.setAttribute('cy', `${fy - fr * 0.15}`);
+              hl.setAttribute('rx', `${fr * 0.16}`);
+              hl.setAttribute('ry', `${fr * 0.42}`);
+            } else {
+              fall.setAttribute('d', '');
+              hl.setAttribute('rx', '0');
+            }
+          }
+
+          // 3. Impacto, ondas concêntricas e micro-respingo de luxo (p = 0.54)
+          rip.style.left = `${ix}px`;
+          rip.style.top = `${iy}px`;
+          rip.style.setProperty('--k', still || p < 0.54 || p > 0.76 ? '0' : `${cl((p - 0.54) / 0.22)}`);
+
+          SP.forEach((o) => {
+            const t = cl((p - 0.54) / 0.14);
+            if (still || t <= 0 || t >= 1) {
+              o.d.style.opacity = '0';
+              return;
+            }
+            o.d.style.opacity = `${1 - t}`;
+            o.d.style.transform = `translate(${ix + Math.cos(o.a) * o.v * t * 1.3}px, ${iy - Math.sin(o.a) * o.v * t * 1.4 + t * t * 60}px)`;
+          });
+
+          // 4. Transformação circular do resultado (Antes -> Depois)
+          const R = Math.hypot(cb.width, cb.height);
+          const rk = still ? 1 : ez(cl((p - 0.54) / 0.40));
+          yc.style.clipPath = `circle(${rk * R}px at ${IX * 100}% ${IY * 100}%)`;
+
+          front.style.width = `${2 * rk * R}px`;
+          front.style.height = `${2 * rk * R}px`;
+          front.style.opacity = rk > 0 && rk < 0.98 ? '1' : '0';
+          lb.textContent = rk > 0.45 ? 'Depois' : 'Antes';
+
+          requestAnimationFrame(renderFrame);
+        }
+
+        window.addEventListener('scroll', updateTargets, { passive: true });
+        window.addEventListener('resize', updateTargets);
+        window.addEventListener('load', () => {
+          updateTargets();
+          smoothP = targetP;
+          smoothA = targetA;
+        });
+
+        // Inicia o render loop
+        updateTargets();
+        smoothP = targetP;
+        smoothA = targetA;
+        requestAnimationFrame(renderFrame);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initDropAnimation);
+      } else {
+        initDropAnimation();
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bgOlh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F3EC"/>
+      <stop offset="100%" stop-color="#DEE2DB"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#FFF8E8"/>
+      <stop offset="100%" stop-color="#EAE3D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bgOlh)"/>
+  <circle cx="250" cy="200" r="160" fill="url(#eyeGlow)"/>
+
+  <!-- Rested, luminous eyes -->
+  <!-- Undereye illuminated cushions -->
+  <ellipse cx="175" cy="225" rx="55" ry="24" fill="#FFFFFF" opacity="0.65"/>
+  <ellipse cx="325" cy="225" rx="55" ry="24" fill="#FFFFFF" opacity="0.65"/>
+  <ellipse cx="175" cy="225" rx="42" ry="16" fill="#FFF4EA" opacity="0.8"/>
+  <ellipse cx="325" cy="225" rx="42" ry="16" fill="#FFF4EA" opacity="0.8"/>
+
+  <!-- Left Eye -->
+  <path d="M 125 190 C 150 168 195 168 220 190" fill="none" stroke="#2A2A2E" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="172" cy="192" rx="28" ry="15" fill="#FFFFFF"/>
+  <circle cx="172" cy="192" r="12" fill="#2E2C2B"/>
+  <circle cx="176" cy="188" r="3.5" fill="#FFFFFF"/>
+  <path d="M 132 195 C 150 205 190 205 210 195" fill="none" stroke="#D3B4A2" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Right Eye -->
+  <path d="M 280 190 C 305 168 350 168 375 190" fill="none" stroke="#2A2A2E" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="328" cy="192" rx="28" ry="15" fill="#FFFFFF"/>
+  <circle cx="328" cy="192" r="12" fill="#2E2C2B"/>
+  <circle cx="332" cy="188" r="3.5" fill="#FFFFFF"/>
+  <path d="M 288 195 C 306 205 346 205 366 195" fill="none" stroke="#D3B4A2" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Eyebrows -->
+  <path d="M 120 160 C 150 145 190 148 215 165" fill="none" stroke="#3A3837" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 380 160 C 350 145 310 148 285 165" fill="none" stroke="#3A3837" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Light sparkle stars in undereyes -->
+  <path d="M 175 220 L 177 225 L 182 227 L 177 229 L 175 234 L 173 229 L 168 227 L 173 225 Z" fill="#B8924A"/>
+  <path d="M 325 220 L 327 225 L 332 227 L 327 229 L 325 234 L 323 229 L 318 227 L 323 225 Z" fill="#B8924A"/>
+</svg>

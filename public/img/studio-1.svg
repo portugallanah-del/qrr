@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="st1Bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EAE7DF"/>
+      <stop offset="60%" stop-color="#DFDDD5"/>
+      <stop offset="100%" stop-color="#D0CEC5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#st1Bg)"/>
+  <!-- Minimalist luxury clinic reception with fluted walls and subtle gold halo -->
+  <rect x="100" y="80" width="600" height="340" rx="24" fill="#F8F6F0" opacity="0.9"/>
+  <!-- Travertine desk -->
+  <rect x="220" y="320" width="360" height="160" rx="16" fill="#F0ECE1" stroke="#E2DED6" stroke-width="1.5"/>
+  <line x1="220" y1="360" x2="580" y2="360" stroke="#B8924A" stroke-width="1" opacity="0.6"/>
+  <!-- Soft arched mirror / wall panel -->
+  <path d="M 330 130 C 330 90 470 90 470 130 L 470 290 L 330 290 Z" fill="#E8E4DA" stroke="#B8924A" stroke-width="1.2"/>
+  <text x="400" y="530" font-family="'Cormorant Garamond', serif" font-size="18" fill="#6E6B68" text-anchor="middle" letter-spacing="3">SALA DE AVALIAÇÃO PRIVATIVA</text>
+</svg>

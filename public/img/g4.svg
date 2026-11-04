@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g4Grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF1EC"/>
+      <stop offset="100%" stop-color="#D7DDD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g4Grad)"/>
+  <!-- Illuminated rested eyes -->
+  <ellipse cx="210" cy="300" rx="65" ry="30" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="390" cy="300" rx="65" ry="30" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="210" cy="270" rx="35" ry="18" fill="#FFFFFF"/>
+  <circle cx="210" cy="270" r="14" fill="#2E2C2B"/>
+  <circle cx="214" cy="266" r="4" fill="#FFFFFF"/>
+  <ellipse cx="390" cy="270" rx="35" ry="18" fill="#FFFFFF"/>
+  <circle cx="390" cy="270" r="14" fill="#2E2C2B"/>
+  <circle cx="394" cy="266" r="4" fill="#FFFFFF"/>
+  <path d="M 155 240 C 185 220 235 220 265 240" fill="none" stroke="#232326" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 445 240 C 415 220 365 220 335 240" fill="none" stroke="#232326" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

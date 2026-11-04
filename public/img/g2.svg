@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g2Grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EFE8"/>
+      <stop offset="100%" stop-color="#DEE1D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g2Grad)"/>
+  <!-- Jawline definition & chin profile -->
+  <path d="M 160 180 C 180 320 220 420 300 450 C 380 420 420 320 440 180" fill="none" stroke="#E5CEBF" stroke-width="32" stroke-linecap="round"/>
+  <path d="M 160 180 C 180 320 220 420 300 450 C 380 420 420 320 440 180" fill="none" stroke="#F5E4D8" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="300" cy="420" r="30" fill="none" stroke="#B8924A" stroke-width="1.2" stroke-dasharray="4 4"/>
+</svg>

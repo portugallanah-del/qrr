@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bgLab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F1EA"/>
+      <stop offset="100%" stop-color="#E8DFD3"/>
+    </linearGradient>
+    <radialGradient id="lipGlow" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#FFE6DF"/>
+      <stop offset="100%" stop-color="#F2D7CC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bgLab)"/>
+  <circle cx="250" cy="200" r="160" fill="url(#lipGlow)"/>
+  
+  <!-- Subtle aesthetic calipers / golden ratio arc -->
+  <circle cx="250" cy="200" r="140" fill="none" stroke="#B8924A" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="250" cy="200" r="155" fill="none" stroke="#B8924A" stroke-width="0.5" stroke-dasharray="3 5" opacity="0.4"/>
+
+  <!-- Lower nose shadow -->
+  <path d="M 235 90 L 250 115 L 265 90" fill="none" stroke="#D3B8A8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Philtrum column lines -->
+  <path d="M 243 120 L 241 155" fill="none" stroke="#DFC5B7" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 257 120 L 259 155" fill="none" stroke="#DFC5B7" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Plump, sculpted lips -->
+  <!-- Upper Lip -->
+  <path d="M 160 180 C 205 155 235 150 250 162 C 265 150 295 155 340 180 C 310 198 275 200 250 196 C 225 200 190 198 160 180 Z" fill="#D9776E"/>
+  <!-- Lower Lip -->
+  <path d="M 162 180 C 200 200 230 200 250 198 C 270 200 300 200 338 180 C 322 235 278 245 250 245 C 222 245 178 235 162 180 Z" fill="#C46057"/>
+
+  <!-- Natural Gloss Highlights -->
+  <ellipse cx="225" cy="215" rx="22" ry="7" fill="#FFFFFF" opacity="0.55" transform="rotate(-6 225 215)"/>
+  <ellipse cx="275" cy="215" rx="22" ry="7" fill="#FFFFFF" opacity="0.55" transform="rotate(6 275 215)"/>
+  <path d="M 245 164 C 248 162 252 162 255 164" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

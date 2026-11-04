@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g6Grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EFE8"/>
+      <stop offset="100%" stop-color="#DEE1D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g6Grad)"/>
+  <ellipse cx="300" cy="300" rx="180" ry="120" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Elegant profile alignment lines -->
+  <path d="M 240 160 L 260 230 L 250 270 L 270 310 L 260 360 L 285 410" fill="none" stroke="#B8924A" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="260" cy="230" r="4" fill="#B8924A"/>
+  <circle cx="270" cy="310" r="4" fill="#B8924A"/>
+  <circle cx="285" cy="410" r="4" fill="#B8924A"/>
+</svg>

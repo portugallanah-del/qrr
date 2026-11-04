@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g1Grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F3EB"/>
+      <stop offset="100%" stop-color="#E5DFD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g1Grad)"/>
+  <circle cx="300" cy="300" r="220" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Elegant Lip contour close-up -->
+  <path d="M 180 270 C 240 235 280 230 300 245 C 320 230 360 235 420 270 C 380 295 330 300 300 295 C 270 300 220 295 180 270 Z" fill="#D47B72"/>
+  <path d="M 185 270 C 235 295 275 295 300 292 C 325 295 365 295 415 270 C 395 340 335 355 300 355 C 265 355 205 340 185 270 Z" fill="#BE6259"/>
+  <ellipse cx="270" cy="315" rx="30" ry="10" fill="#FFFFFF" opacity="0.6" transform="rotate(-6 270 315)"/>
+  <ellipse cx="330" cy="315" rx="30" ry="10" fill="#FFFFFF" opacity="0.6" transform="rotate(6 330 315)"/>
+  <circle cx="300" cy="300" r="240" fill="none" stroke="#B8924A" stroke-width="0.8" opacity="0.3"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="bgBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBECE8"/>
+      <stop offset="100%" stop-color="#DCDFD8"/>
+    </linearGradient>
+    <linearGradient id="skinBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E6DC"/>
+      <stop offset="50%" stop-color="#EFD6CA"/>
+      <stop offset="100%" stop-color="#DFC0B0"/>
+    </linearGradient>
+    <linearGradient id="hairBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#363433"/>
+      <stop offset="100%" stop-color="#232326"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgBase)"/>
+  <circle cx="300" cy="350" r="230" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Shoulders -->
+  <path d="M 120 750 C 130 570 180 510 240 480 L 300 520 L 360 480 C 420 510 470 570 480 750 Z" fill="#F0EDE6"/>
+
+  <!-- Neck -->
+  <path d="M 270 380 L 270 490 C 285 505 315 505 330 490 L 330 380 Z" fill="#DFC0B0"/>
+
+  <!-- Hair Back -->
+  <path d="M 200 240 C 170 340 180 470 230 520 L 250 510 C 210 440 210 330 220 260 Z" fill="url(#hairBase)"/>
+  <path d="M 400 240 C 430 340 420 470 370 520 L 350 510 C 390 440 390 330 380 260 Z" fill="url(#hairBase)"/>
+
+  <!-- Face Oval (Antes: Slightly shorter chin, softer jawline) -->
+  <path d="M 235 250 C 235 170 365 170 365 250 C 365 330 340 400 300 400 C 260 400 235 330 235 250 Z" fill="url(#skinBase)"/>
+
+  <!-- Hair Front -->
+  <path d="M 220 230 C 230 130 370 130 380 230 C 360 195 330 185 300 185 C 270 185 240 195 220 230 Z" fill="url(#hairBase)"/>
+
+  <!-- Eyebrows -->
+  <path d="M 252 245 C 265 242 278 244 286 250" fill="none" stroke="#363433" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 348 245 C 335 242 322 244 314 250" fill="none" stroke="#363433" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Forehead faint expression lines (Antes) -->
+  <path d="M 275 220 C 290 218 310 218 325 220" fill="none" stroke="#C9AA98" stroke-width="1.2" opacity="0.6"/>
+  <path d="M 280 227 C 292 225 308 225 320 227" fill="none" stroke="#C9AA98" stroke-width="1" opacity="0.5"/>
+
+  <!-- Eyes with slight dark circles (Antes) -->
+  <!-- Undereye shadow -->
+  <path d="M 255 272 C 263 282 280 282 288 273" fill="none" stroke="#B08D7C" stroke-width="2.5" opacity="0.55"/>
+  <path d="M 345 272 C 337 282 320 282 312 273" fill="none" stroke="#B08D7C" stroke-width="2.5" opacity="0.55"/>
+
+  <ellipse cx="272" cy="260" rx="10" ry="5.5" fill="#FFFFFF"/>
+  <circle cx="272" cy="260" r="4.5" fill="#363433"/>
+  <circle cx="274" cy="258" r="1.3" fill="#FFFFFF"/>
+  <path d="M 260 258 C 267 254 277 254 284 258" fill="none" stroke="#232326" stroke-width="1.8" stroke-linecap="round"/>
+
+  <ellipse cx="328" cy="260" rx="10" ry="5.5" fill="#FFFFFF"/>
+  <circle cx="328" cy="260" r="4.5" fill="#363433"/>
+  <circle cx="330" cy="258" r="1.3" fill="#FFFFFF"/>
+  <path d="M 316 258 C 323 254 333 254 340 258" fill="none" stroke="#232326" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 300 255 L 298 295 C 294 298 306 298 302 295 Z" fill="none" stroke="#CAA896" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lips (Antes: Thinner, less contour definition) -->
+  <path d="M 286 328 C 293 325 307 325 314 328 C 308 333 292 333 286 328 Z" fill="#D38C84"/>
+  <path d="M 287 328 C 294 332 306 332 313 328 C 310 334 290 334 287 328 Z" fill="#C0776F"/>
+
+  <!-- Chin (Mento Antes: Receded/softer curve) -->
+  <path d="M 292 370 C 297 374 303 374 308 370" fill="none" stroke="#C9AA98" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

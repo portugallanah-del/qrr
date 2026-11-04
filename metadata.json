@@ -1,0 +1,6 @@
+{
+  "name": "Dra. Helena Vasconcelos | Harmonização Facial de Luxo",
+  "description": "Site modelo premium de harmonização facial com simulação estética ilustrativa, varinha interativa e agendamento via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

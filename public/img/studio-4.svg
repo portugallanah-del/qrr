@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="st4Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBF8F2"/>
+      <stop offset="100%" stop-color="#E5E2D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#st4Bg)"/>
+  <!-- Welcoming tea & relaxation corner -->
+  <circle cx="300" cy="270" r="160" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="300" cy="380" rx="140" ry="40" fill="#E8E2D4" opacity="0.7"/>
+  <path d="M 230 260 C 240 200 360 200 370 260 L 380 340 L 220 340 Z" fill="#F4EFE6" stroke="#B8924A" stroke-width="1"/>
+  <text x="300" y="470" font-family="'Cormorant Garamond', serif" font-size="16" fill="#6E6B68" text-anchor="middle" letter-spacing="2">ESPAÇO BEM-ESTAR &amp; CONFORTO</text>
+</svg>

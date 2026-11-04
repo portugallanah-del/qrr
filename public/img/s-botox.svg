@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bgBot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EFE9"/>
+      <stop offset="100%" stop-color="#DEE3DC"/>
+    </linearGradient>
+    <radialGradient id="browGlow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8E2D5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bgBot)"/>
+  <circle cx="250" cy="180" r="150" fill="url(#browGlow)"/>
+
+  <!-- Smooth Forehead with delicate micro-precision application points -->
+  <path d="M 150 130 C 180 80 320 80 350 130 C 370 200 370 280 340 320 C 300 360 200 360 160 320 C 130 280 130 200 150 130 Z" fill="#F8E7DB" opacity="0.9"/>
+
+  <!-- Smooth, relaxed brow arcs -->
+  <path d="M 180 190 C 205 178 225 182 238 195" fill="none" stroke="#2A2A2E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 320 190 C 295 178 275 182 262 195" fill="none" stroke="#2A2A2E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Relaxed, open gaze -->
+  <path d="M 190 220 C 205 210 225 210 235 220" fill="none" stroke="#2A2A2E" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 310 220 C 295 210 275 210 265 220" fill="none" stroke="#2A2A2E" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Micro-points of application (subtle gold sparks) -->
+  <circle cx="250" cy="120" r="4" fill="#B8924A"/>
+  <circle cx="215" cy="135" r="3.5" fill="#B8924A"/>
+  <circle cx="285" cy="135" r="3.5" fill="#B8924A"/>
+  <circle cx="180" cy="155" r="3" fill="#B8924A"/>
+  <circle cx="320" cy="155" r="3" fill="#B8924A"/>
+  <circle cx="250" cy="175" r="3" fill="#B8924A"/>
+
+  <!-- Smoothness ripple rays -->
+  <circle cx="250" cy="140" r="60" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="250" cy="140" r="95" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.35"/>
+</svg>

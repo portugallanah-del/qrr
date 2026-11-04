@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="st2Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EFE8"/>
+      <stop offset="100%" stop-color="#DEE1D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#st2Bg)"/>
+  <rect x="80" y="80" width="440" height="440" rx="32" fill="#FAF8F2"/>
+  <!-- Procedure chair & architectural ring lamp -->
+  <circle cx="300" cy="220" r="90" fill="none" stroke="#B8924A" stroke-width="2.5"/>
+  <circle cx="300" cy="220" r="70" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Reclining chair silhouette -->
+  <path d="M 210 390 C 230 330 270 330 390 320 L 400 350 C 310 360 270 365 240 430 Z" fill="#E8E2D4"/>
+  <text x="300" y="500" font-family="'Cormorant Garamond', serif" font-size="16" fill="#6E6B68" text-anchor="middle" letter-spacing="2">SUÍTE CLÍNICA</text>
+</svg>

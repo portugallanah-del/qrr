@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g7Grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBF8F2"/>
+      <stop offset="100%" stop-color="#E2DED5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g7Grad)"/>
+  <!-- Delicate aesthetic consultation sketching -->
+  <circle cx="300" cy="300" r="190" fill="none" stroke="#E2DED6" stroke-width="1.2"/>
+  <circle cx="300" cy="300" r="160" fill="none" stroke="#B8924A" stroke-width="0.8" stroke-dasharray="6 6"/>
+  <path d="M 210 270 C 255 240 345 240 390 270" fill="none" stroke="#D9776E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 220 275 C 260 320 340 320 380 275" fill="none" stroke="#C46057" stroke-width="8" stroke-linecap="round"/>
+</svg>
